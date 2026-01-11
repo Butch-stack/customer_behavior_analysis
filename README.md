@@ -1,101 +1,77 @@
-# Customer Shopping Behavior Analysis
-End-to-End Data Analytics Project (Python | SQL | Power BI)
+# 📊 Customer Shopping Behavior Analysis  
+**End-to-End Data Analytics Project | Python · SQL · Power BI**
 
-#📌 Project Description
+---
 
-This project focuses on analyzing customer shopping behavior using transactional retail data. The objective is to understand how customers interact with products, discounts, subscriptions, and purchasing patterns, and to convert raw data into meaningful business insights using industry-standard data analytics tools.
+## 📌 Project Overview
+This project analyzes customer shopping behavior using retail transaction data to uncover meaningful insights related to purchasing patterns, customer segments, discounts, and subscriptions. The goal is to simulate a real-world data analytics workflow and demonstrate how raw data can be transformed into actionable business intelligence.
 
-The project follows a complete analytics workflow starting from data cleaning and exploration to database querying and dashboard-based reporting.
+---
 
-#🎯 Objectives
+## 🎯 Objectives
+- Understand customer purchasing behavior across product categories  
+- Identify revenue drivers and high-value customer segments  
+- Compare subscriber vs non-subscriber spending patterns  
+- Provide data-driven recommendations for business growth  
 
-Analyze customer purchase behavior across different product categories
+---
 
-Identify key revenue drivers and high-value customer segments
+## 🗂 Dataset Summary
+- **Records:** ~3,900 customer transactions  
+- **Features:** Customer demographics, product details, discounts, ratings, subscription status, and shipping type  
+- **Data Issues:** Missing values and inconsistent formats handled during preprocessing  
 
-Compare subscriber vs non-subscriber spending patterns
+Each row represents a single customer purchase with relevant behavioral attributes.
 
-Provide data-backed recommendations to improve customer retention and sales
+---
 
-#🗂 Dataset Overview
+## 🛠 Tools & Technologies
+- **Python:** Data cleaning, transformation, and exploratory data analysis  
+- **SQL (PostgreSQL / MySQL):** Business-focused querying and aggregation  
+- **Power BI:** Interactive dashboard creation  
+- **Libraries:** Pandas, NumPy, Matplotlib  
+- **Environment:** Jupyter Notebook  
 
-Total Records: ~3,900 transactions
+---
 
-Features: Customer demographics, purchase details, discounts, ratings, subscription status, and shipping type
+## 🔄 Project Workflow
 
-Data Quality Issues: Missing values in review ratings, inconsistent formats
+### 1️⃣ Data Preparation (Python)
+- Loaded raw data using Pandas  
+- Handled missing values and standardized column formats  
+- Created derived features such as age groups and purchase frequency  
 
-Each row represents a customer purchase with associated attributes required for behavioral analysis.
+### 2️⃣ Exploratory Data Analysis
+- Analyzed spending trends across categories and seasons  
+- Studied discount usage and subscription behavior  
+- Identified repeat and loyal customers  
 
-#🔧 Tools & Technologies
+### 3️⃣ SQL-Based Analysis
+- Loaded cleaned data into a relational database  
+- Executed SQL queries to analyze:
+  - Revenue distribution  
+  - Top-performing and highly rated products  
+  - Subscriber vs non-subscriber behavior  
+  - Discount-driven purchases  
 
-Python: Data cleaning, transformation, and exploratory data analysis
+### 4️⃣ Visualization (Power BI)
+- Designed an interactive dashboard highlighting:
+  - Revenue by category and age group  
+  - Customer segments  
+  - Subscription and shipping insights  
 
-SQL (PostgreSQL/MySQL): Business-focused querying and aggregation
+---
 
-Power BI: Interactive dashboards and visual storytelling
+## 📈 Key Insights
+- Subscribers contribute higher average revenue compared to non-subscribers  
+- Certain products remain top-performing even after discounts  
+- Loyal customers generate a disproportionate share of total revenue  
+- Express shipping users tend to have higher purchase values  
 
-Libraries: Pandas, NumPy, Matplotlib
+---
 
-Environment: Jupyter Notebook
-
-#🔄 Project Workflow
-#1️⃣ Data Preparation (Python)
-
-Loaded raw data into Python using Pandas
-
-Handled missing values and standardized column naming
-
-Engineered new features such as age groups and purchase frequency
-
-#2️⃣ Exploratory Data Analysis
-
-Analyzed spending trends across categories and seasons
-
-Studied discount usage and subscription behavior
-
-Identified loyal and repeat customers
-
-#3️⃣ Database Analysis (SQL)
-
-Loaded cleaned data into a relational database
-
-Wrote SQL queries to analyze:
-
-Revenue distribution
-
-Top-rated and frequently purchased products
-
-Subscriber vs non-subscriber spending
-
-High-value customers using discounts
-
-#4️⃣ Visualization (Power BI)
-
-Designed an interactive dashboard highlighting:
-
-Revenue by category and age group
-
-Subscription insights
-
-Customer segments and purchasing trends
-
-#📈 Key Insights
-
-Subscribers contribute significantly higher average revenue than non-subscribers
-
-Certain products remain high-performing even with discounts applied
-
-Loyal customers form a small segment but generate disproportionate revenue
-
-Express shipping users show higher purchase value
-
-#💡 Business Recommendations
-
-Promote subscription plans through targeted offers
-
-Introduce loyalty programs for repeat customers
-
-Optimize discount strategies to protect margins
-
-Highlight top-performing products in marketing campaigns
+## 💡 Business Recommendations
+- Promote subscription plans through targeted offers  
+- Introduce loyalty programs for repeat customers  
+- Optimize discount strategies to protect profit margins  
+- Highlight high-performing products in marketing campaigns  
